@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Elemonti</title>
+  <meta name="description" content="Contact Elemonti for representation and brand partnership inquiries.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="assets/logo-icon.png" alt="" class="brand-mark">ELEMONTI<span>.</span></a>
+    <nav>
+      <a href="index.html" class="nav-home">Home</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn nav-apply" href="contact.html?inquiry=representation#inquiry-form"><span class="btn-full">Apply for Representation</span><span class="btn-short">Apply</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Contact Elemonti</div>
+      <h1>Let’s build what’s next.</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact">
+      <div>
+        <div class="eyebrow">Representation & partnerships</div>
+        <h2 class="contact-heading">Start the conversation.</h2>
+        <p class="contact-copy">Whether you are a creator seeking representation or a brand looking for the right talent, tell us what you are building.</p>
+        <div class="card">
+          <b>Email</b><p>elemonti.inc@gmail.com</p>
+          <b>Instagram</b><p>@elemontiofficial</p>
+        </div>
+      </div>
+
+      <div class="card" id="inquiry-form">
+        <form action="mailto:elemonti.inc@gmail.com" method="post" enctype="text/plain">
+          <label>Name<input name="name" placeholder="Name" required></label>
+          <label>Email<input type="email" name="email" placeholder="Email" required></label>
+          <label>Instagram or social handle<input name="social" placeholder="@yourhandle"></label>
+          <label>Type of inquiry
+            <select name="inquiry" id="inquiry-select">
+              <option value="representation">Representation inquiry</option>
+              <option value="partnership">Brand partnership inquiry</option>
+              <option value="general">General inquiry</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" placeholder="Tell us about yourself or your opportunity" required></textarea></label>
+          <button class="btn primary" type="submit">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div class="brand">ELEMONTI<span>.</span></div>
+    <div>elemonti.inc@gmail.com · @elemontiofficial</div>
+    <div>© 2026 Elemonti</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
